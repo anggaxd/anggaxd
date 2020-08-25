@@ -124,9 +124,9 @@ cpb = []
 def mail():
     os.system('clear')
     print logo
-    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;93m\xee\x82\xa0[1]  Start Hacking'
+    print '[01]  Start Hacking'
     time.sleep(0.05)
-    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;91m\xee\x82\xa0[0]  Back            '
+    print '[00]  Back            '
     time.sleep(0.05)
     print 45 * '-'
     action()
@@ -134,18 +134,18 @@ def mail():
 def action():
     global cpb
     global oks
-    anggaxd = raw_input('\n\x1b[1;97mPilih \x1b[1;95m')
+    anggaxd = raw_input('\n\x1b[1;97m▄︻̷̿┻̿═━一 \x1b[1;95m')
     if anggaxd == '':
         print '[!] Fill in correctly'
         action()
     elif anggaxd == '1':
     	os.system('clear') 
         print logo
-        print ('[\033[1;93m•\033[1;97m] Nama  : Angga') 
-        print ('[\033[1;92m+\033[1;97m] Domain : @gmail.com @yahoo.com @hotmail.com') 
+        print ('[\033[1;93m•\033[1;97m] Nama   \033[1;91m: \033[1;92mAngga') 
+        print ('[\033[1;92m+\033[1;97m] Domain \033[1;91m: \033[1;92m@gmail.com @yahoo.com @hotmail.com') 
         try:
-            k = raw_input('[\033[1;92m+\033[1;97m] Nama  : ')
-            c = raw_input('[\033[1;93m?\033[1;97m] Domain : ')
+            k = raw_input('[\033[1;92m+\033[1;97m] Nama   \033[1;91m: \033[1;92m')
+            c = raw_input('[\033[1;93m?\033[1;97m] Domain \033[1;91m: \033[1;92m')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -160,9 +160,9 @@ def action():
     else:
         print '[!] Fill in correctly'
         action()  
-    junee = raw_input('[\033[1;93m+\033[1;97m] Password 1 : ')
-    junee = raw_input('[\033[1;93m+\033[1;97m] Password 2 : ')
-    junee = raw_input('[\033[1;93m+\033[1;97m] Password 3 : ')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;92m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;92m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;92m')
     print "\033[1;97m--------------------------------------------------"
     xxx = str(len(id))
     psb ('[\033[1;93m+\033[1;97m] Total Numbers: '+xxx)
