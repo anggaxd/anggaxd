@@ -132,18 +132,18 @@ def mail():
 def action():
     global cpb
     global oks
-    anggaxd = raw_input('\n\x1b[1;91mChoose an Option>>> \x1b[1;95m')
+    anggaxd = raw_input('\n\x1b[1;97mPilih \x1b[1;95m')
     if anggaxd == '':
         print '[!] Fill in correctly'
         action()
     elif anggaxd == '1':
     	os.system('clear') 
         print logo
-        print ('Ex : Angga') 
-        print ('Domain : @gmail.com') 
+        print ('Example Nama : Angga') 
+        print ('Domain : @gmail.com @yahoo.com @hotmail.com') 
         try:
-            k = raw_input('\x1b[1;95m Type Any Name  : ')
-            c = raw_input('\x1b[1;95m Type Any Domin : ')
+            k = raw_input('\x1b[1;97m Nama  : ')
+            c = raw_input('\x1b[1;97m Domain : ')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -151,14 +151,16 @@ def action():
         except IOError:
             print '[!] File Not Found'
             raw_input('\n[ Back ]')
-            blackmafiax()
+            mail()
 
     elif anggaxd == '0':
         login()
     else:
         print '[!] Fill in correctly'
         action()  
-    junee = raw_input('\x1b[1;95m Type Any Password : ')
+    junee = raw_input('\x1b[1;97mPassword 1 : ')
+    junee = raw_input('\x1b[1;97mPassword 2 : ')
+    junee = raw_input('\x1b[1;97mPassword 3 : ')
     xxx = str(len(id))
     psb ('[\033[1;93m+\033[1;97m] Total Numbers: '+xxx)
     time.sleep(0.5)
