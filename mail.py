@@ -191,9 +191,10 @@ def action():
 					cps.write(k+c+user+pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
-		except:
+		
+        except:
             pass
-
+            
     p = ThreadPool(30)
     p.map(main, id)
     print "\033[1;91m--------------------------------------------------"
