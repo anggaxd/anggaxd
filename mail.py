@@ -124,8 +124,8 @@ cpb = []
 def mail():
     os.system('clear')
     print logo
-    print '[01] Crack Email'
-    print '[00] Exit'
+    print '  \033[1;97m[\033[1;92m01\033[1;97m]  Crack Email Random'
+	print '  \033[1;97m[\033[1;92m02\033[1;97m]  Exit'
     print 45 * '-'
     action()
 
@@ -139,11 +139,11 @@ def action():
     elif anggaxd == '1':
     	os.system('clear') 
         print logo
-        print ('Example Nama : Angga') 
-        print ('Domain : @gmail.com @yahoo.com @hotmail.com') 
+        print ('[\033[1;93m•\033[1;97m] Nama  : Angga') 
+        print ('[\033[1;92m+\033[1;97m] Domain : @gmail.com @yahoo.com @hotmail.com') 
         try:
-            k = raw_input('\x1b[1;97m Nama  : ')
-            c = raw_input('\x1b[1;97m Domain : ')
+            k = raw_input('[\033[1;92m+\033[1;97m] Nama  : ')
+            c = raw_input('[\033[1;93m?\033[1;97m] Domain : ')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -154,13 +154,14 @@ def action():
             mail()
 
     elif anggaxd == '0':
-        login()
+        keluar()
     else:
         print '[!] Fill in correctly'
         action()  
-    junee = raw_input('\x1b[1;97mPassword 1 : ')
-    junee = raw_input('\x1b[1;97mPassword 2 : ')
-    junee = raw_input('\x1b[1;97mPassword 3 : ')
+    junee = raw_input('[\033[1;93m+\033[1;97m] Password 1 : ')
+    junee = raw_input('[\033[1;93m+\033[1;97m] Password 2 : ')
+    junee = raw_input('[\033[1;93m+\033[1;97m] Password 3 : ')
+    print "\033[1;97m--------------------------------------------------"
     xxx = str(len(id))
     psb ('[\033[1;93m+\033[1;97m] Total Numbers: '+xxx)
     time.sleep(0.5)
@@ -168,7 +169,7 @@ def action():
     time.sleep(0.5)
     psb ('[\033[1;91m!\033[1;97m] To Stop Process Press CTRL Then Press z')
     time.sleep(0.5)
-    print "\033[1;91m--------------------------------------------------"
+    print "\033[1;97m--------------------------------------------------"
     def main(arg):
         global cpb,oks
         user = arg
@@ -199,7 +200,7 @@ def action():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\033[1;91m--------------------------------------------------"
+    print "\033[1;97m--------------------------------------------------"
     print '\033[1;97m[\033[1;92m✓\033[1;97m] Process Has Been Completed ...'
     print '[\033[1;92m✓\033[1;97m] Total \033[1;92mSuccessfully\033[1;97m/\033[1;93mCheckpoint\033[1;97m : '+str(len(oks))+'/'+str(len(cpb))
     print('[\033[1;92m✓\033[1;97m] Cracking Accounts Has Been Saved : junee/crack.txt')
