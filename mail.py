@@ -125,7 +125,7 @@ def mail():
     os.system('clear')
     print logo
     print '  \033[1;97m[\033[1;92m01\033[1;97m]  Crack Email Random'
-	print '  \033[1;97m[\033[1;92m00\033[1;97m]  Exit'
+	print '  \033[1;97m[\033[1;92m00\033[1;97m]  Exit            '
     print 45 * '-'
     action()
 
