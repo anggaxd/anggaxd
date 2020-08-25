@@ -124,8 +124,10 @@ cpb = []
 def mail():
     os.system('clear')
     print logo
-    print '\033[1;97m[\033[1;92m01\033[1;97m]    Crack Email Random'
-	print '\033[1;97m[\033[1;92m00\033[1;97m]    Exit            '
+    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;93m\xee\x82\xa0[1]  Start Hacking'
+    time.sleep(0.05)
+    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;91m\xee\x82\xa0[0]  Back            '
+    time.sleep(0.05)
     print 45 * '-'
     action()
 
