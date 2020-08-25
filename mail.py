@@ -203,7 +203,7 @@ def action():
     print('[\033[1;92m✓\033[1;97m] Cracking Accounts Has Been Saved : junee/crack.txt')
     
     raw_input("\n\033[1;97m[\033[1;97mPress Enter Go Back\033[1;97m]")
-    email() 
+    mail() 
           
 if __name__ == '__main__':
-    email()
+    mail()
