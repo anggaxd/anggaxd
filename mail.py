@@ -145,7 +145,7 @@ def action():
         print logo
         try:
         	print('Example : Angga') 
-            print('Domain  : @gmail.com') 
+        	print('Example : @gmail.com')         
             k = raw_input('\x1b[1;95m Type Any Name  : ')
             c = raw_input('\x1b[1;95m Type Any Domin : ')
             idlist = '.txt'
