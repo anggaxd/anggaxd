@@ -147,15 +147,15 @@ def mail():
     print '[00]  Back            '
     time.sleep(0.05)
     print 45 * '-'
-    action()
+    cemail()
 
-def action():
+def cemail():
     global cpb
     global oks
     anggaxd = raw_input('\n\x1b[1;97m▄︻̷̿┻̿═━一 \x1b[1;95m')
     if anggaxd == '':
         print '[!] Fill in correctly'
-        action()
+        cemail()
     elif anggaxd == '1':
     	os.system('clear') 
         print logo
@@ -177,7 +177,7 @@ def action():
         menu()
     else:
         print '[!] Fill in correctly'
-        action()  
+        cemail()  
     junee = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;97m')
     junee = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;97m')
     junee = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;97m')
