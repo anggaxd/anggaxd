@@ -103,10 +103,10 @@ cpb = []
 def blackmafiax():
     os.system('clear')
     print logo
-    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;93m\xee\x82\xa0[1]  Start Hacking'
+    psb ('Menu Crack Email : \n')
+    print '  \033[1;97m[\033[1;92m01\033[1;97m]  Start Crack Email'
     time.sleep(0.05)
-    print '\x1b[1;93m-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-\x1b[1;97m> \x1b[1;91m\xe2\x98\x86.\x1b[1;91m\xee\x82\xa0[0]  Back            '
-    time.sleep(0.05)
+    print '  \033[1;97m[\033[1;92m00\033[1;97m]  Back To Menu            '
     print 45 * '-'
     action()
 
@@ -114,16 +114,17 @@ def blackmafiax():
 def action():
     global cpb
     global oks
-    lovehackerx = raw_input('\n\x1b[1;91mChoose an Option>>> \x1b[1;95m')
+    lovehackerx = raw_input('\n\033[1;97m[\033[1;93m?\033[1;97m] Choose an Option : \033[1;92m')
     if lovehackerx == '':
         print '[!] Fill in correctly'
         action()
     elif lovehackerx == '1':
     	os.system('clear')
-        print logo
+        print ('[\033[1;93m•\033[1;97m] Nama   \033[1;91m: \033[1;97mputri.ayu') 
+        print ('[\033[1;92m+\033[1;97m] Domain \033[1;91m: \033[1;97m@gmail.com @yahoo.com @hotmail.com') 
         try:
-            k = raw_input('\x1b[1;95m Type Any Name  : ')
-            c = raw_input('\x1b[1;95m Type Any Domin : ')
+            c = raw_input('[\033[1;92m+\033[1;97m] Nama   \033[1;91m: \033[1;97m')
+            k = raw_input('[\033[1;93m?\033[1;97m] Domain \033[1;91m: \033[1;97m')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -146,7 +147,7 @@ def action():
     time.sleep(0.05)
     jalan('[!] To Stop Process Press CTRL Then Press z')
     time.sleep(0.05)
-    print 44 * '-'
+    print "\033[1;97m--------------------------------------------------"
 
     def main(arg):
         user = arg
