@@ -123,7 +123,6 @@ def action():
         print logo
         try:
             k = raw_input('\x1b[1;95m Type Any Name  : ')
-            print logo6
             c = raw_input('\x1b[1;95m Type Any Domin : ')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
@@ -139,7 +138,6 @@ def action():
     else:
         print '[!] Fill in correctly'
         action()
-    print logo7
     blackmafiaxxx = raw_input('\x1b[1;95m Type Any Password : ')
     xxx = str(len(id))
     jalan('[\xe2\x9c\x93] Total Numbers: ' + xxx)
