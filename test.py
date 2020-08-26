@@ -142,21 +142,20 @@ def pilih():
 def mail():
     os.system('clear')
     print logo
-    print '[01]  Start Crack Email'
-    time.sleep(0.05)
-    print '[00]  Back            '
-    time.sleep(0.05)
+    psb ('Menu Crack Email : \n')
+	print '  \033[1;97m[\033[1;92m01\033[1;97m]  Start Crack Email'
+	print '  \033[1;97m[\033[1;92m00\033[1;97m]  Back To Menu'
     print 45 * '-'
     cemail()
 
 def cemail():
     global cpb
     global oks
-    anggaxd = raw_input('\n\x1b[1;97m▄︻̷̿┻̿═━一 \x1b[1;95m')
+    anggaxd = raw_input('\n\033[1;97m[\033[1;93m?\033[1;97m] Choose an Option : \033[1;92m')
     if anggaxd == '':
         print '[!] Fill in correctly'
         cemail()
-    elif anggaxd == '1':
+    elif anggaxd == '1' or anggaxd == '01':
     	os.system('clear') 
         print logo
         print ('[\033[1;93m•\033[1;97m] Nama   \033[1;91m: \033[1;97mputri.ayu') 
@@ -173,7 +172,7 @@ def cemail():
             raw_input('\n[ Back ]')
             mail()
 
-    elif anggaxd == '0':
+    elif anggaxd == '0' or anggaxd == '00':
         menu()
     else:
         print '[!] Fill in correctly'
@@ -241,7 +240,7 @@ def number():
 	print '  \033[1;97m[\033[1;92m04\033[1;97m]  Indonesia'
 	print '  \033[1;97m[\033[1;92m05\033[1;97m]  Afghanistan'+'\n'
 	print '  \033[1;97m[\033[1;92m15\033[1;97m]  Update Tools'
-	print '  \033[1;97m[\033[1;92m00\033[1;97m]  Exit            '+'\n'
+	print '  \033[1;97m[\033[1;92m00\033[1;97m]  Exit            '
 	print "\033[1;97m--------------------------------------------------"
 	action()
 
@@ -352,7 +351,7 @@ def action():
         time.sleep(0.80)
         menu()
     elif anggaxd == '0' or anggaxd == '00':
-        keluar()
+        menu()
     else:
         print '[!] Fill In Correctly'
         action()
