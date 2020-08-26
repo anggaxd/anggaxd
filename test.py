@@ -143,9 +143,9 @@ def mail():
     os.system('clear')
     print logo
     psb ('Menu Crack Email : \n')
-	print '[01]  Start Crack Email'
+    print '  \033[1;97m[\033[1;92m01\033[1;97m]  Start Crack Email'
     time.sleep(0.05)
-    print '[00]  Back To Menu            '
+    print '  \033[1;97m[\033[1;92m00\033[1;97m]  Back To Menu            '
     print 45 * '-'
     cemail()
 
