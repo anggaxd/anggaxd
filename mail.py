@@ -16,8 +16,14 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 nmbr.py')
-
+    os.system('python2 email.py')
+    
+def psb(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.05)
+		
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -153,3 +159,6 @@ def action():
     
     raw_input("\n\033[1;97m[\033[1;97mPress Enter Go Back\033[1;97m]")
     menu() 
+    
+if __name__ == '__main__':
+    menu()    
