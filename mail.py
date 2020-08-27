@@ -1,7 +1,7 @@
 
 import os, re, requests
 from random import randint
-from concurrent.futures import ThreadPoolExecutor
+
 
 def brute(user, passs):
   try:
