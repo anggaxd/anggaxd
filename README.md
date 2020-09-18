@@ -1,3 +1,6 @@
+<h1 align="center">
+  ANGGA KURNIAWAN
+</h1>
 <p align="center">
  <img src="https://raw.githubusercontent.com/anggaxd/anggaxd/master/20200918_215443.png" width="640" title="Menu" alt="Menu">
 </p>
