@@ -1,11 +1,10 @@
-
 <p align="center">
  <img src="https://raw.githubusercontent.com/anggaxd/anggaxd/master/IMG_20200919_061139.png" width="640" title="Menu" alt="Menu">
 </p>
 
 ### Github Stats
 <img src="https://github-readme-stats.vercel.app/api/?username=anggaxd&show_icons=true" alt="git stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=code-architects&layout=compact" alt="Top language">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anggaxd&code-architects&layout=compact" alt="Top language">
 
 ### Reporstory
 <a href="https://github.com/anggaxd/c-all"><img title="C-ALL" src="https://github-readme-stats.vercel.app/api/pin/?username=anggaxd&repo=c-all&theme=vision-friendly-white"></a>
