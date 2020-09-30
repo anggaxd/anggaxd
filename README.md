@@ -13,12 +13,8 @@
 <a href="https://github.com/anggaxd/bf"><img title="BF" src="https://github-readme-stats.vercel.app/api/pin/?username=anggaxd&repo=bf&theme=vision-friendly-white"></a>
 <a href="https://github.com/anggaxd/pyenc"><img title="PYENC" src="https://github-readme-stats.vercel.app/api/pin/?username=anggaxd&repo=pyenc&theme=vision-friendly-white"></a>
 
-### Connect with me 
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/messenger.svg" />][messenger]
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-
-
-[facebook]: https://m.facebook.com/USERVIP.ANGGAXD
-[messenger]: https://m.me/USERVIP.ANGGAXD
-[youtube]: https://m.youtube.com/channel/UCyRQesO6I0SgE2RbGfRPS7g
+### Connect With Me 
+* [<img alt="Angga Kurniawan's Facebook" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" /> <b>Angga Kurniawan</b>](https://m.facebook.com/USERVIP.ANGGAXD)<br />
+* [<img alt="Angga Kurniawan's Messenger" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/messenger.svg" /> <b>Angga Kurniawan</b>](https://m.me/USERVIP.ANGGAXD)<br /
+* [<img alt="anggaxd's GitHub" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>anggaxd</b>](https://github.com/anggaxd)<br />
+* [<img alt="avsid's Github" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>avsid</b>](https://github.com/avsid)<br />
