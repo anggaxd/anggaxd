@@ -15,6 +15,6 @@
 
 ### Connect With Me 
 * [<img alt="Angga Kurniawan's Facebook" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" /> <b>Angga Kurniawan</b>](https://m.facebook.com/USERVIP.ANGGAXD)<br />
-* [<img alt="Angga Kurniawan's Messenger" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/messenger.svg" /> <b>Angga Kurniawan</b>](https://m.me/USERVIP.ANGGAXD)<br /
+* [<img alt="Angga Kurniawan's Messenger" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/messenger.svg" /> <b>Angga Kurniawan</b>](https://m.me/USERVIP.ANGGAXD)<br />
 * [<img alt="anggaxd's GitHub" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>anggaxd</b>](https://github.com/anggaxd)<br />
 * [<img alt="avsid's Github" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>avsid</b>](https://github.com/avsid)<br />
