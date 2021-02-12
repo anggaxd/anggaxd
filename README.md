@@ -19,3 +19,4 @@
 * [<img alt="Angga Kurniawan's Instagram" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /> <b>Angga Kurniawan</b>](https://instagram.com/gaaarzxd)<br />
 * [<img alt="anggaxd's GitHub" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>anggaxd</b>](https://github.com/anggaxd)<br />
 * [<img alt="avsid's Github" align="left" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> <b>avsid</b>](https://github.com/avsid)<br />
+![anggaxd](https://komarev.com/ghpvc/?username=anggaxd&label=Views&color=blue&style=plastic)
